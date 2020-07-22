@@ -1,0 +1,71 @@
+<resources>
+    <string name="Loading">Loading…</string>
+
+    <string name="app_name">Mergency</string>
+    <string name="signUpRoot">Sign Up Root</string>
+    <string name="signUpTitle">REGISTRATION</string>
+    <string name="signUpName">Name</string>
+    <string name="signUpMobile">Mobile No.</string>
+    <string name="signUpEmail">Email</string>
+    <string name="signUpPassword">Password</string>
+    <string name="signUpBloodGroup">Blood Group</string>
+
+    <string name="profileRoot">Profile Root</string>
+    <string name="profileTitle">Update Profile</string>
+    <string name="profileName">Name</string>
+    <string name="profileMobile">Mobile No.</string>
+    <string name="profileEmail">Email</string>
+    <string name="profilePassword">Password</string>
+    <string name="profileBloodGroup">Blood Group</string>
+
+    <string name="signInRoot">Sign In Root</string>
+    <string name="signInTitle">Sign In</string>
+    <string name="signInEmail">Email</string>
+    <string name="signInPassword">Password</string>
+
+    <string name="linkSignIn">Already a member ? Sign In</string>
+    <string name="linkSignUp">Don\'t have an account ? Sign Up</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="profileBtn">Update</string>
+    <string name="signInBtn">Sign In</string>
+    <string name="signOutBtn">Sign Out</string>
+
+    <string name="dashboardRoot">Dashboard Root</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navUserName">Android Studio</string>
+    <string name="navUserEmail">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_addContact">Add Contacts</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_signOut">Sign Out</string>
+    <string name="homeTitle">Home</string>
+    <string name="signUpUserType">User Type</string>
+    <string name="profileAuthBtn">Continue</string>
+    <string name="authBtn">Continue</string>
+    <string name="authPassword">Password</string>
+    <string name="authTitle">Authenticate</string>
+    <string name="linkAuth">To update your profile, please enter your current password first.</string>
+    <string name="profileUserType">User Type</string>
+    <string name="google_maps_key">AIzaSyBxLx4YJFi_O8sVW0ZDyI5_7-SNMGvaFiQ</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="addContactTitle">Add Emergency Contacts</string>
+    <string name="title_activity_android_accelerometer_example">AndroidAccelerometerExample</string>
+    <string name="menu_sensor">Sensor Readings</string>
+    <string name="sensorTitle">Sensor Readings</string>
+
+    <string name="addContactBtn">Add Contacts</string>
+    <string name="LoadContactTitle">Select Emergency Contacts</string>
+    <string name="saveContactBtn">Done</string>
+    <string name="signUpUserService">Service</string>
+    <string name="profileUserService">Service</string>
+    <string name="HistoryTitle">History</string>
+    <string name="AccidentAlert">Emergency Alert</string>
+    <string name="NavigateToAccident">Navigate To Accident</string>
+</resources>

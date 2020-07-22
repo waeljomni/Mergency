@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@+id/accidentMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        tools:context=".Home" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="344dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/victimImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/victimInformationBox"
+            android:layout_width="226dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:text=""
+            android:textColor="#000000" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout >

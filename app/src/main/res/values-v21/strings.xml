@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_maps_key">AIzaSyBxLx4YJFi_O8sVW0ZDyI5_7-SNMGvaFiQ</string>
+    <string name="menu_sensor">Sensor Readings</string>
+    <string name="sensorTitle">Sensor Readings</string>
+    <string name="signUpUserService">Service</string>
+    <string name="profileUserService">Service</string>
+    <string name="HistoryTitle">History</string>
+    <string name="AccidentAlert">Emergency Alert</string>
+    <string name="NavigateToAccident">Navigate To Accident</string>
+</resources>

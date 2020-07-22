@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.emergencyrescue">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Home"
+            android:label="@string/homeTitle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddContact"
+            android:label="@string/addContactTitle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Auth"
+            android:label="@string/authTitle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/profileTitle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Signup"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".LoadContact"
+            android:label="@string/LoadContactTitle"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".History"
+            android:label="@string/HistoryTitle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccidentAlert"
+            android:label="@string/AccidentAlert"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigateToAccident"
+            android:label="@string/NavigateToAccident"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".SignIn"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignOut" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CommonActivity" />
+
+        <service android:name=".FCM" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".LocationUpdate" />
+    </application>
+
+</manifest>
